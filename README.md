@@ -1,19 +1,17 @@
-Assignment 1 - Part 2
 02/02/2015
 Author: Archit Sood 
 
 Summary:
-The submitted program tries to emulate the UNIX Shell.
+The program tries to emulate the UNIX Shell.
 
-Files Submuitted : 
+Files: 
 	1. Source Code: my_shell.c
-	2. Executable: my_shell
 	3. Makefile
-	4. README_part2.txt (This file)
+	4. README.txt 
 
 Instructions to run:
 	1. Unizip the files in desired directory.
-	2. Open the terminal and make sure that you are in the same directory as step 1. For example "cd sfuhome/300".
+	2. Open the terminal and make sure that you are in the same directory as step 1. For example "cd home/myshell".
 	3. Once in the correct directory, type "make" in terminal. The code should compile now and  terminal should display "	gcc -o my_shell my_shell.c".
 	4. After an error free complition, type "make run" in the terminal.
 	5. A prompt is displayed. For example "archits_shell$> "
@@ -28,7 +26,7 @@ Supported Features:
 	6. cntrl-z and cntrl-c is not supported.
 
 Tests:
-	1. The program was tested and compiled on several linux machines in CSIL Lab.
+	1. The program was tested and compiled on several linux machines.
 	2. Some commands tested:
 		i) 	  "ls"
 		ii)   "ls -1"
